@@ -16,9 +16,9 @@ The core idea of this project is to solve FAQs of the people regarding the Covid
 https://covinai.azurewebsites.net/
 
 ## Webpage Screenshots
-
+### CoVinAI Home Page
 <img src="https://raw.githubusercontent.com/VinayEdula/Co.VinAI/main/Web%20App/Screenshot%20(4564).png"/>
-
+### Healthcare Bot Service
 <img src="https://raw.githubusercontent.com/VinayEdula/Co.VinAI/main/Web%20App/Screenshot%20(4565).png"/>
 
 <img src="https://raw.githubusercontent.com/VinayEdula/Co.VinAI/main/Web%20App/Screenshot%20(4566).png"/>
