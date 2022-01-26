@@ -14,3 +14,7 @@ The core idea of this project is to solve FAQs of the people regarding the Covid
 
 ## Project Demo URL
 https://covinai.azurewebsites.net/
+
+## Webpage Screenshots
+
+<img src="https://github.com/Neklaustares-tPtwP/Microsoft-Future_Ready_Talent-Internship/blob/master/Orientation/img/Industry%20Session.PNG"/>
