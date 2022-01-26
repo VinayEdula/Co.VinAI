@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="https://rajesh42.github.io/Covid-19/asset/LOGO.png" type="image/icon type">
+  <title>CoVinAI</title>
+
+  <!-- font awesome cdn link  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+  <!-- custom css file link  -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- header section starts  -->
+
+  <header>
+    <a href="#" class="logo">c<span class="fas fa-virus"></span>VinAI</a>
+
+    <div id="menu" class="fas fa-bars"></div>
+
+    <nav class="navbar">
+      <a class="active" href="#home">Home</a>
+      <a href="help/index.html">Emergency</a>
+      <a href="#prevent">Prevent</a>
+      <a href="#symptoms">Symptoms</a>
+      <a href="#precautions">Care</a>
+      <a href="#hand-wash">Hygiene</a>
+    </nav>
+    <div class="botNav">
+      <span class="botNavHead">Mr.CoHeal CoVinAI's Bot</span>
+      <button id="closeBtn" onclick="closeBot()" style="display:none;">X</button>
+    </div>
+    <div align="left">
+      <iframe id="invokeBot" data-src="https://healthcare-bot-iaf3wf7rpbrq2.azurewebsites.net/" src="about:blank"
+        height="450" width="400" align="bottom" style="display: none;"></iframe>
+    </div>
+
+  </header>
+
+  <!-- header section ends -->
+
+  <!-- home section starts  -->
+
+  <section class="home" id="home">
+    <div class="content">
+      <h1>Prevention Against Coronavirus</h1>
+      <h3>#Stay At Home</h3>
+      <a id="post" onclick="postYourAdd()" class="btn">Talk to Mr.CoHeal !</a>
+    </div>
+  </section>
+
+  <!-- home section ends -->
+
+  <!-- prevent section starts  -->
+
+  <section class="prevent" id="prevent">
+    <h1 class="heading">How To Take Care Of Ourselves?</h1>
+
+    <div class="box-container">
+      <div class="box">
+        <img src="images/pre-1.png" alt="" />
+        <h3>Sanitize Your Place</h3>
+
+      </div>
+
+      <div class="box">
+        <img src="images/pre-2.png" alt="" />
+        <h3>Keep Your Distance</h3>
+
+      </div>
+
+      <div class="box">
+        <img src="images/pre-3.png" alt="" />
+        <h3>Don't Touch Your Face</h3>
+
+      </div>
+
+      <div class="box">
+        <img src="images/pre-4.png" alt="" />
+        <h3>Wash Your Hands</h3>
+
+      </div>
+
+      <div class="box">
+        <img src="images/pre-5.png" alt="" />
+        <h3>Be Careful When Sneezing!</h3>
+
+      </div>
+
+      <div class="box">
+        <img src="images/pre-6.png" alt="" />
+        <h3>Wear A Mask</h3>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- prevent section ends -->
+
+  <!-- symptoms section starts  -->
+
+  <section class="symptoms" id="symptoms">
+    <h1 class="heading">Covid-19 Symptoms</h1>
+
+    <div class="column">
+      <div class="main-image">
+        <img src="images/main-symp-img.png" alt="" />
+      </div>
+
+      <div class="box-container">
+        <div class="box">
+          <img src="images/symp-a.png" alt="" />
+          <h3>Dry Cough</h3>
+        </div>
+
+        <div class="box">
+          <img src="images/symp-b.png" alt="" />
+          <h3>Throat Pain</h3>
+        </div>
+
+        <div class="box">
+          <img src="images/symp-c.png" alt="" />
+          <h3>Cold</h3>
+        </div>
+
+        <div class="box">
+          <img src="images/symp-d.png" alt="" />
+          <h3>Fever</h3>
+        </div>
+
+        <div class="box">
+          <img src="images/symp-e.png" alt="" />
+          <h3>Headache</h3>
+        </div>
+
+        <div class="box">
+          <img src="images/symp-f.png" alt="" />
+          <h3>Vomiting</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- symptoms section ends -->
+
+  <!-- precautions section starts  -->
+
+  <section class="precautions" id="precautions">
+    <h1 class="heading">Precautions Against Covid-19</h1>
+
+    <div class="column">
+      <div class="box-container">
+        <h3 class="title">Things You MUST Do </h3>
+
+        <div class="box">
+          <img src="images/do-img1.png" alt="" />
+          <div class="info">
+            <h3>Wash Your Hands Properly ........</h3>
+
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="images/do-img2.png" alt="" />
+          <div class="info">
+            <h3>Always Wear A Mask in Public<span style="display:none;">Hello How Are You</span></h3>
+
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="images/do-img3.png" alt="" />
+          <div class="info">
+            <h3>Isolate Yourself If You Feel Bad</h3>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="box-container">
+        <h3 class="title">Things You MUST NOT Do </h3>
+
+        <div class="box">
+          <img src="images/dont-img1.png" alt="" />
+          <div class="info">
+            <h3>Avoid Close Contact With Strange Animals</h3>
+
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="images/dont-img2.png" alt="" />
+          <div class="info">
+            <h3>Avoid Close Contact With People From Another Bubble</h3>
+
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="images/dont-img3.png" alt="" />
+          <div class="info">
+            <h3>Avoid Crowded Spaces, Stay At Home. </h3>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- precautions section ends -->
+
+  <!-- doctor section start  -->
+
+  <!-- <section class="doctor" id="doctor">
+      <h1 class="heading">consult to our doctors</h1>
+
+      <div class="box-container">
+        <div class="box">
+          <img src="images/doc1.png" alt="" />
+          <h3>john doe</h3>
+          <span>senior expert</span>
+          <div class="share">
+            <a href="#" class="fab fa-whatsapp"></a>
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="images/doc2.png" alt="" />
+          <h3>john doe</h3>
+          <span>senior expert</span>
+          <div class="share">
+            <a href="#" class="fab fa-whatsapp"></a>
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="images/doc3.png" alt="" />
+          <h3>john doe</h3>
+          <span>senior expert</span>
+          <div class="share">
+            <a href="#" class="fab fa-whatsapp"></a>
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+  <!-- doctor section ends -->
+
+  <!-- hand-wash section starts  -->
+
+  <section class="hand-wash" id="hand-wash">
+    <h1 class="heading">HOW TO WASH YOUR HANDS CORRECTLY...</h1>
+
+    <div class="column">
+      <div class="box-container">
+        <div class="box">
+          <img src="images/wash-a.png" alt="" />
+          <h3>Water And Soap</h3>
+        </div>
+
+        <div class="box">
+          <img src="images/wash-b.png" alt="" />
+          <h3>Both Palms</h3>
+        </div>
+
+        <div class="box">
+          <img src="images/wash-c.png" alt="" />
+          <h3>Between The Fingers</h3>
+        </div>
+
+        <div class="box">
+          <img src="images/wash-d.png" alt="" />
+          <h3>Both Thumbs</h3>
+        </div>
+
+        <div class="box">
+          <img src="images/wash-e.png" alt="" />
+          <h3>Back Of Hands</h3>
+        </div>
+
+        <div class="box">
+          <img src="images/wash-f.png" alt="" />
+          <h3>Up To The Wrist</h3>
+        </div>
+      </div>
+
+      <div class="main-image">
+        <img src="images/main-wash-img.png" alt="" />
+      </div>
+    </div>
+  </section>
+
+  <!-- hand-wash section ends -->
+
+  <!-- footer section starts  -->
+
+  <div class="footer">
+    <h1 class="credit">
+      <a href="https://www.linkedin.com/in/vinayedula/"> VinayEdula</a> &copy; copyright @ 2022
+    </h1>
+
+  </div>
+
+  <!-- footer section ends -->
+
+  <!-- scroll top  -->
+
+  <a href="#home" class="scroll-top">
+    <img src="images/scroll-img.png" alt="" />
+  </a>
+
+  <!-- jquery cdn link  -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <!-- custom js file link  -->
+  <script src="script.js"></script>
+  <script src="index.js"></script>
+</body>
+
+</html>
