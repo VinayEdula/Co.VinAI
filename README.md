@@ -12,3 +12,5 @@ The core idea of this project is to solve FAQs of the people regarding the Covid
 - Web Apps
 - Azure Storage
 
+## Project Demo URL
+https://covinai.azurewebsites.net/
