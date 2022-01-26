@@ -22,13 +22,18 @@ https://covinai.azurewebsites.net/
 ### Healthcare Bot Service
 <img src="https://raw.githubusercontent.com/VinayEdula/Co.VinAI/main/Web%20App/Screenshot%20(4565).png"/>
 
+### Healthcare Bot Service
 <img src="https://raw.githubusercontent.com/VinayEdula/Co.VinAI/main/Web%20App/Screenshot%20(4566).png"/>
 
+### Covid19 Precautions
 <img src="https://raw.githubusercontent.com/VinayEdula/Co.VinAI/main/Web%20App/Screenshot%20(4567).png"/>
 
+### Covid19 Symptoms
 <img src="https://raw.githubusercontent.com/VinayEdula/Co.VinAI/main/Web%20App/Screenshot%20(4568).png"/>
 
+### Handwash Precautions
 <img src="https://raw.githubusercontent.com/VinayEdula/Co.VinAI/main/Web%20App/Screenshot%20(4569).png"/>
 
+### Covid19 Live Cases Tracker
 <img src="https://raw.githubusercontent.com/VinayEdula/Co.VinAI/main/Web%20App/Screenshot%20(4570).png"/>
 
