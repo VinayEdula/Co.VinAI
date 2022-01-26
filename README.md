@@ -17,4 +17,4 @@ https://covinai.azurewebsites.net/
 
 ## Webpage Screenshots
 
-<img src="https://github.com/Neklaustares-tPtwP/Microsoft-Future_Ready_Talent-Internship/blob/master/Orientation/img/Industry%20Session.PNG"/>
+<img src="https://raw.githubusercontent.com/VinayEdula/Co.VinAI/main/Web%20App/Screenshot%20(4564).png"/>
