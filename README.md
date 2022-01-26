@@ -18,16 +18,16 @@ https://covinai.azurewebsites.net/
 ## Webpage Screenshots
 
 <img src="https://raw.githubusercontent.com/VinayEdula/Co.VinAI/main/Web%20App/Screenshot%20(4564).png"/>
-##
+
 <img src="https://raw.githubusercontent.com/VinayEdula/Co.VinAI/main/Web%20App/Screenshot%20(4565).png"/>
-##
+
 <img src="https://raw.githubusercontent.com/VinayEdula/Co.VinAI/main/Web%20App/Screenshot%20(4566).png"/>
-##
+
 <img src="https://raw.githubusercontent.com/VinayEdula/Co.VinAI/main/Web%20App/Screenshot%20(4567).png"/>
-###
+
 <img src="https://raw.githubusercontent.com/VinayEdula/Co.VinAI/main/Web%20App/Screenshot%20(4568).png"/>
-###
+
 <img src="https://raw.githubusercontent.com/VinayEdula/Co.VinAI/main/Web%20App/Screenshot%20(4569).png"/>
-###
+
 <img src="https://raw.githubusercontent.com/VinayEdula/Co.VinAI/main/Web%20App/Screenshot%20(4570).png"/>
-##
+
